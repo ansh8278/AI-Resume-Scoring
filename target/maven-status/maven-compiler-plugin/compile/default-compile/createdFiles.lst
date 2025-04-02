@@ -1,0 +1,5 @@
+models/Resume.class
+com/mycompany/smartresume/resources/JakartaEE11Resource.class
+com/mycompany/smartresume/JakartaRestConfiguration.class
+servlets/ResumeServlet.class
+dao/ResumeDAO.class
