@@ -7,51 +7,67 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <style>
+        /* Soft and modern UI styling */
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f7fc;
-            margin-top: 50px;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
         .container {
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 30px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
         }
         h2 {
-            text-align: center;
             color: #333;
+            font-weight: 600;
             margin-bottom: 20px;
-        }
-        form {
-            width: 100%;
         }
         .form-group input,
         .form-group textarea {
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            padding: 12px;
             width: 100%;
-            margin-bottom: 20px;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #009688;
+            box-shadow: 0 0 8px rgba(0, 150, 136, 0.2);
+            outline: none;
         }
         .form-group textarea {
             resize: none;
             height: 120px;
         }
         .btn-submit {
-            background-color: #007bff;
+            background: linear-gradient(to right, #26c6da, #009688);
             color: white;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: 16px;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 18px;
             width: 100%;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
         }
         .btn-submit:hover {
-            background-color: #0056b3;
+            background: linear-gradient(to right, #009688, #00796b);
+            transform: scale(1.05);
         }
         @media (max-width: 768px) {
             .container {
-                padding: 15px;
+                padding: 20px;
             }
         }
     </style>

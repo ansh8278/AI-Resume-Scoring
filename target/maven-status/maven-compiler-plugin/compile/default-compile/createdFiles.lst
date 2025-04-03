@@ -1,5 +1,7 @@
-models/Resume.class
 com/mycompany/smartresume/resources/JakartaEE11Resource.class
 com/mycompany/smartresume/JakartaRestConfiguration.class
 servlets/ResumeServlet.class
+models/Resume.class
+utils/EmailUtil$1.class
+utils/EmailUtil.class
 dao/ResumeDAO.class
